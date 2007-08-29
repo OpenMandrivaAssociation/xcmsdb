@@ -32,6 +32,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/xcmsdb
-%{_mandir}/man1/xcmsdb.1x.bz2
+%{_mandir}/man1/xcmsdb.1x*
 
 
