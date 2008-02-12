@@ -7,8 +7,8 @@ Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.
 License:	MIT
 BuildRoot:	%{_tmppath}/%{name}-root
 
-BuildRequires:	x11-util-macros	>= 1.1.5
-BuildRequires:	libx11-devel	>= 1.1.3
+BuildRequires: libx11-devel >= 1.0.0
+BuildRequires: x11-util-macros >= 1.0.1
 
 %description
 xcmsdb is used to load, query, or remove Device Color Characterization
@@ -23,7 +23,7 @@ independent and device-dependent forms.
 %setup -q -n %{name}-%{version}
 
 %build
-%configure	--x-includes=%{_includedir}\
+%configure2_5x	--x-includes=%{_includedir}\
 		--x-libraries=%{_libdir}
 
 %make
