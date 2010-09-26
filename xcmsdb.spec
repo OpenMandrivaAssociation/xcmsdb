@@ -1,5 +1,5 @@
 Name:		xcmsdb
-Version:	1.0.2
+Version:	1.0.3
 Release:	%mkrel 1
 Summary:	Device Color Characterization utility for X Color Management System
 Group:		Development/X11
