@@ -33,3 +33,52 @@ independent and device-dependent forms.
 %files
 %{_bindir}/xcmsdb
 %{_mandir}/man1/xcmsdb.1.*
+
+
+%changelog
+* Mon Feb 27 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.0.4-1
++ Revision: 781033
+- version update 1.0.4
+
+* Sat May 07 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.3-2
++ Revision: 671285
+- mass rebuild
+
+* Sun Sep 26 2010 Thierry Vignaud <tv@mandriva.org> 1.0.3-1mdv2011.0
++ Revision: 581090
+- new release
+
+* Wed Nov 11 2009 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 1.0.2-1mdv2010.1
++ Revision: 464698
+- New version: 1.0.2
+
+* Sat Mar 07 2009 Antoine Ginies <aginies@mandriva.com> 1.0.1-7mdv2009.1
++ Revision: 351224
+- rebuild
+
+* Wed Jun 18 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-6mdv2009.0
++ Revision: 226021
+- rebuild
+
+  + Paulo Andrade <pcpa@mandriva.com.br>
+    - Revert to use upstream tarball, build requires and remove non mandatory local patches.
+
+* Mon Jan 21 2008 Paulo Andrade <pcpa@mandriva.com.br> 1.0.1-5mdv2008.1
++ Revision: 155952
+- Updated BuildRequires and resubmit package.
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Aug 31 2007 Adam Williamson <awilliamson@mandriva.org> 1.0.1-4mdv2008.0
++ Revision: 76408
+- rebuild for 2008
+- add description
+- minor spec clean
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - do not hardcode lzma extension!!!
+
