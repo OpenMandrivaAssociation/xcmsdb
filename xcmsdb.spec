@@ -1,9 +1,9 @@
 Name:		xcmsdb
-Version:	1.0.6
-Release:	2
+Version:	1.0.7
+Release:	1
 Summary:	Device Color Characterization utility for X Color Management System
 Group:		Development/X11
-Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
+Source0:	https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
 
 BuildRequires: pkgconfig(x11) >= 1.0.0
